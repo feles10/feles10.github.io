@@ -1,0 +1,163 @@
+body{
+	margin-left: 0;
+	margin-right: -50px;
+	width: 100%;
+}
+
+.Home {
+	position: static;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 65px;
+	margin-bottom: -50px;
+}
+
+.Home p {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.paux {
+	font-size: 65px;
+}
+
+.paux2{
+	margin-top: -60px;
+}
+
+.Jobs {
+	position: relative;
+	margin-top:140px;
+	margin-bottom: -50px;
+	background-image: url(Fondo4.jpg);
+	width: 100%;
+}
+
+.Jobs p {
+	text-align: justify;
+}
+
+.Jobs h1 {
+	margin-top: 0px;
+	margin-bottom: 45px;
+}
+
+.C{
+	margin-top: -15px;
+	margin-bottom: 40px;
+	margin-right: 15px;
+	position: relative;
+	left: 50px;
+	z-index: 99;
+	max-width: 100%;
+}
+
+.AM {
+	margin-top: 20px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.Links {
+	position: relative;
+	margin-bottom: 35px;
+}
+
+.Links h3 {
+	margin-top: -5px;
+}
+
+.ICO a {
+	padding: 20px 22px;
+}
+
+.ICO p {
+	margin-left: -5px;
+}
+
+.Contact {
+	position: relative;
+	margin-bottom: -50px;
+}
+
+.Contact h4 {
+	margin-top: -25px;
+}
+
+.Contact p {
+	margin-top: -25px;
+}
+
+p{
+	font-size: 25px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+	font-size: 40px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 999;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 999;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar p {
+	font-size: 12px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 999;
+}
+
+.footer p {
+	font-size: 10px;
+}
+
+.hrb {
+	background-color: black;
+	width: 100%;
+	height:15px;
+	border-style: none;
+}
+
+.img {
+	position: relative;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
