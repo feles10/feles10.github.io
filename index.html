@@ -6,110 +6,116 @@
 </head>
 <body>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<div class="navbar">
-  <a href="#Home"><p>Home</p></a>
-  <a href="#Trabajos"><p>Experiencia</p></a>
-  <a href="#Sobre Mi"><p>Sobre Mi</p></a>
-  <a href="#Links"><p>Links de Interes</p></a>
-  <a href="#Contact"><p>Contactame</p></a>
-  <a href="#Curriculum"><p>Curriculum</p></a>
-  <a href="CURRICULUM.pdf" target="_blank"><p>Descargar</p></a>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#">Felix Guerrero</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="responsive-button">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+	  <ul class="navbar-nav">
+		<li class="nav-item active section">
+		  <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item section">
+		  <a class="nav-link" href="#" >Experience</a>
+		</li>
+		<li class="nav-item section">
+		  <a class="nav-link" href="#" >About Me</a>
+		</li>
+		<li class="nav-item section">
+			<a class="nav-link" href="#" >Links of Interest</a>
+		</li>
+		<li class="nav-item section">
+			<a class="nav-link" href="#" >Curriculum</a>
+		</li>
+		<li class="nav-item section">
+			<a class="nav-link" href="#" >Download</a>
+		</li>
+	  </ul>
+	</div>
+  </nav>
 
 <div class="Home" id="Home">
-<br>
-<br>
-<img align="center" src="css/foto2.jpg" class="img">
-<p align="center" class="paux"><strong>Felix Guerrero</strong></p>
-<p align="center" class="paux2">Programador - Productor Musical</p>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<img src="css/foto2.jpg" class="img">
+		</div>
+		<div class="col-lg-12">
+			<p><strong>Felix Guerrero</strong></p>
+		</div>
+		<div class="col-lg-12">
+			<p>Software Engineer</p>
+		</div>
+		<div class="col-lg-12">
+			<p>Full Stack Developer</p>
+		</div>
+	</div>
+</div>
 </div>
 
-<div class="Jobs" id="Trabajos">
+<div class="Jobs" id="Trabajos" style="padding-bottom:2%">
 <hr class="hrb">
-<br>
-<br>
-<br>
 
-<h1 align="center">EXPERIENCIA</h1>
-	<table class="C">
-	<tr>
-		<td><p align="center"><strong>PROGRAMACION</strong></p>
-		<p align="center">Actualmente soy estudiante de Ingeniería en informática <br>
-		en la Universidad Rafael Belloso Chacín, con fecha<br>
-		de graduación esperada para Julio de 2018.<br></p>
-		</td>
-	</tr>
-	<tr>
-		<td><p align="center"><strong>MUSICA</strong></p>
-		<p align="center">Realizo trabajos de producción musical para la banda<br>
-		ESTOCOLMO, en la cual me desempeño como guitarrista.<br>
-		He asistido al evento Global Game Jam en la ciudad de <br>
-		Maracaibo, realizando producciónes musicales para <br> distintos videojuegos. <br>
-	</p></td>
-	</tr>
-	</table>
-	<hr class="hrb">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>EXPERIENCE</h1>
+			</div>
+		</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<h2>Full Stack Developer</h2>
+					<p>I've worked for five (5) months as a full stack developer on AIOTIK, an IoT (Internet of Things) company on Venezuela</p>
+				</div>
+				<div class="col-lg-6">
+					<h2>Used Languages</h2>
+					<p>I've been working with MEAN Stack (Mongo, Express, Angular, Node) but I alse use CouchDB (NoSQL Databases), MySQL (SQL Databases) and PhP for the back end, for the front end I've used EJS (Template engine), JQuery, JavaScript, Bootstrap and CSS. Also I'm capable of deploy a server for continius integration (web hook on version control) for development</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Projects that I've worked on</h1>
+				</div>	
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<h2>CIBOS</h2>
+					<p>Web application for the administration of restaurants</p>
+				</div>
+				<div class="col-lg-4">
+					<h2>Admin Dashboard SpyFone</h2>
+					<p>Web application for the administration of SpyFone, an app used for monitoring phones</p>
+				</div>
+				<div class="col-lg-4">
+					<h2>Application ESTA</h2>
+					<p>Web application for an easy application of the Travel Authorization on the United States (not assosiated with the gouverment)</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class="AM" id="Sobre Mi">
-<br>
-<br>
-<br>
-
-	<h2 align="center">SOBRE MI</h2>
-	<p align="center">
-		Tengo 20 años, soy Venezolano.<br>
-		Me apasiona la música y los videojuegos.<br>
-		Soy guitarrista, poseo conocimientos en <br>
-		bajo, teclado y batería. <br> <br>
-		Mi objetivo es tener mi propio estudio <br>
-		con el fin de realizar<br>
-		proyectos de grabación profesionales, <br>
-		crear música para videojuegos y <br>
-		desarrollar temas musicales propios.<br>
-	</p>
-</div>
-
-<div class="Links" id="Links">
-<hr class="hrb">
-<br>
-<br>
-<br>
-
-	<h3 align="center">LINKS DE INTERES</h3>
-	<center>
-	<table class="ICO">
-		<td>
-			<a href="https://soundcloud.com/felix-guerrero-3"><img src="css/SoundCloud.ico" height="32" width="32">
-			</a>
-		</td>
-		<td>
-			<p>SoundCloud</p>
-		</td>
-		<td>
-			<a href="https://soundcloud.com/felix-guerrero-3"><img src="css/SoundCloud.ico" height="32" width="32">
-			</a>
-		</td>
-		<td>
-			<p>SoundCloud ESTOCOLMO</p>
-		</td>
-		<td>
-			<a href="https://globalgamejam.org/users/feles"><img src="css/GameJam.png" height="32" width="32">
-			</a>
-		</td>
-		<td>
-			<p>Global Game Jam</p>
-		</td>
-		<td>
-			<a href="https://github.com/feles10/"><img src="css/github.png" height="32" width="32">
-			</a>
-		</td>
-		<td>
-			<p>GitHub</p>
-		</td>			
-	</table>
-</center>
+<div class="AM" id="about_me">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1>About Me</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4 text-center">
+				<p>I'm a 21 years years old software engineer, pasionate for music and code. I'm a full stack developer because I love to develop API's capables of working on any device, keeping a good looking front-end and well documented back-end</p>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+	</div>
 </div>
 
 <div class="Contact" id="Contact">
@@ -135,5 +141,18 @@
 <br>
 <div class="footer">
   <p>Pagina Creada por: Felix Guerrero</p>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+	var clicked = true;
+
+$("#responsive-button").click(function(){
+    if(clicked)
+    $(".nav-link").attr("class","responsive-list");
+    else
+    $(".nav-link").removeAttr("class","responsive-list");
+});
+</script>
 </body>
 </html>

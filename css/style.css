@@ -9,35 +9,28 @@ body{
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
-	margin-top: 65px;
-	margin-bottom: -50px;
+	margin-top: 5%;
 }
 
 .Home p {
 	font-family: 'Roboto Mono', monospace;
-}
-
-.paux {
-	font-size: 65px;
-}
-
-.paux2{
-	margin-top: -60px;
+	text-align: center;
 }
 
 .Jobs {
+	text-align: center;
 	position: relative;
 	margin-top:140px;
 	margin-bottom: -50px;
-	background-image: url(Fondo4.jpg);
 	width: 100%;
 }
 
 .Jobs p {
-	text-align: justify;
+	text-align: center;
 }
 
 .Jobs h1 {
+	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 45px;
 }
@@ -123,16 +116,6 @@ h1,h2,h3,h4,h5 {
     font-family: 'Roboto Mono', monospace;
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-    background: #ddd;
-    color: black;
-}
-
-.navbar p {
-	font-size: 12px;
-}
-
 .footer {
     position: fixed;
     left: 0;
@@ -160,4 +143,21 @@ h1,h2,h3,h4,h5 {
 	text-align: center;
 	display: block;
 	margin: auto;
+}
+
+.section:hover {
+	-webkit-transition: background-color 1s;
+	background-color: rgb(32, 32, 32);
+	  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+	  -webkit-border-radius: 12px; 
+
+	  /* Firefox 1-3.6 */
+	  -moz-border-radius: 12px; 
+	  
+	  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+	  border-radius: 12px;
+}
+
+.responsive-list{
+	padding-left: 1.5%;
 }
